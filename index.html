@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="https://img.icons8.com/?size=100&id=OfHW8kyefWNc&format=png&color=000000" type="image/x-icon">
+  </head>
+<body>
+    <p class="parent"></p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Temporibus sint, voluptatem dolorum exercitationem 
+        praesentium ea aliquam atque incidunt. Error nam eveniet amet magnam perferendis ut quos dolore rem laborum voluptatem.
+    </p>
+    <!-- ===== HEADER / NAVIGATION ===== -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                   Divine OMATY
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#about">À propos</a></li>
+                    <li><a href="#skills">Compétences</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- ===== HERO SECTION ===== -->
+    <section class="hero">
+        <div class="container">
+            <h1>
+                <!-- TODO MARDI HTML : Changez ce titre (ex: "Je suis développeur web") -->
+              Développeuse Full-Stack en formation
+            </h1>
+            <p>
+                <!-- TODO MARDI HTML : Changez cette description (parlez de VOUS) -->
+                Créatrice d'expériences web innovantes et interactives. Passionnée par le code, la créativité et les défis technologiques
+            </p>
+            <a href="#projects" class="cta-button">Découvrir mes projets</a>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT SECTION ===== -->
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">À propos de moi</h2>
+            
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="c:\Users\user\Pictures\WhatsApp Image 2025-11-20 at 11.35.39_0f867ae2.jpg" alt="Photo de profil">
+                </div>
+
+                <div class="about-text">
+                    <h2>
+                        <!-- TODO MARDI HTML : Changez ce titre (ex: "Qui suis-je ?") -->
+                        Qui suis-je ?
+                    </h2>
+                    <p>
+                        <!-- TODO MARDI HTML : Écrivez un paragraphe sur vous -->
+                        Je suis une personne naturellement curieuse, toujours en quête de comprendre comment les choses fonctionnent. 
+                        Cette curiosité m'a naturellement menée vers le développement web, un domaine où créativité et logique se rencontrent pour donner vie à des idées. 
+                        Ce qui me passionne le plus, c'est cette sensation unique quand une ligne de code transforme une page blanche en quelque chose d'interactif et d'utile.
+                        Actuellement en première année de Bachelor à HETIC, je vis une période intense d'apprentissage où chaque jour m'apporte son lot de découvertes. 
+                        Entre les cours, les projets en équipe et mes expérimentations personnelles, je construis progressivement ma vision du développement web.
+                    </p>
+                    <p>
+                        <!-- TODO MARDI HTML : Écrivez un deuxième paragraphe sur vous -->
+                        Mon objectif est de me donner au maximum afin de revolutionner la technologie. Je travaille avec [vos outils/technologies].
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SKILLS SECTION ===== -->
+    <section class="skills" id="skills">
+        <div class="container">
+            <h2 class="section-title">Mes Compétences</h2>
+            
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-icon">🌐</div>
+                    <h3>[Compétence 1]</h3>
+                    <p>[Description de votre compétence 1]</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">⚙️</div>
+                    <h3>[Compétence 2]</h3>
+                    <p>[Description de votre compétence 2]</p>
+                </div>
+
+                <div class="skill-card">
+                    <div class="skill-icon">🎨</div>
+                    <h3>[Compétence 3]</h3>
+                    <p>[Description de votre compétence 3]</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== PROJECTS SECTION ===== -->
+    <section class="projects" id="projects">
+        <div class="container">
+            <h2 class="section-title">Mes Projets</h2>
+            
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">[Projet 1]</div>
+                    <div class="project-content">
+                        <h3>[Nom du Projet 1]</h3>
+                        <p>[Description courte du projet 1]</p>
+                        <a href="#" class="project-link">Voir le projet →</a>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">[Projet 2]</div>
+                    <div class="project-content">
+                        <h3>[Nom du Projet 2]</h3>
+                        <p>[Description courte du projet 2]</p>
+                        <a href="#" class="project-link">Voir le projet →</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT SECTION / FORM ===== -->
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2>Me Contacter</h2>
+            
+            <form class="contact-form">
+                <div class="form-group">
+                    <label for="name">Votre nom</label>
+                    <input type="text" id="name" name="name">
+                </div>
+
+                <div class="form-group">
+                    <label for="email">Votre email</label>
+                    <input type="email" id="email" name="email">
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Votre message</label>
+                    <textarea id="message" name="message"></textarea>
+                </div>
+
+                <button type="submit" class="submit-button">Envoyer</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- ===== FOOTER ===== -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>À propos</h3>
+                    <p>[Une courte phrase sur vous et votre domaine]</p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Liens rapides</h3>
+                    <p><a href="#about" style="color: #0071e3; text-decoration: none;">À propos</a></p>
+                    <p><a href="#projects" style="color: #0071e3; text-decoration: none;">Projets</a></p>
+                    <p><a href="#contact" style="color: #0071e3; text-decoration: none;">Contact</a></p>
+                </div>
+
+                <div class="footer-section">
+                    <h3>Suivez-moi</h3>
+                    <div class="social-links">
+                        <a href="#">🐙</a>
+                        <a href="#">💼</a>
+                        <a href="#">🐦</a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer-bottom">
+                © 2025 [Votre Nom]. Tous droits réservés.
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
