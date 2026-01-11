@@ -22,7 +22,6 @@
             background-color: var(--bg-dark);
             line-height: 1.6;
         }
-
         h1, h2, h3, .logo {
             font-family: 'Poppins', sans-serif; /* Police pour les titres */
             font-weight: 700;
