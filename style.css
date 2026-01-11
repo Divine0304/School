@@ -315,8 +315,6 @@
         transform: scale(1.1) rotate(10deg); /* L'icône s'anime */
         background: #f1f5f9;
     }
-
-
     /* ===== PROJECTS SECTION ===== */
         .projects {
             background-color: #f8fafc;
@@ -386,7 +384,6 @@
             font-size: 1.1rem;
             line-height: 1.7;
         }
-
         .project-link {
             display: inline-block;
             color: #4facfe;
@@ -590,7 +587,6 @@
             background-color: var(--primary-color);
             transition: width 0.3s ease; /* Animation de la barre */
         }
-
         .nav-links a:hover {
             color: var(--primary-color);
         }
@@ -598,7 +594,6 @@
         .nav-links a:hover::after {
             width: 100%; /* La barre s'étend au survol */
         }
-
         }
 
         /* Mobile (480px et moins) */
